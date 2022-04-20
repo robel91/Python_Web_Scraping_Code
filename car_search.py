@@ -10,10 +10,10 @@ import time
 
 #create a connection and cursor 
 conn = pyodbc.connect(driver ='{SQL SERVER}',
-                      Server ='18.225.7.23',
+                      Server ='xxxxxx',
                       database ='MSIS-415',
-                      uid="sa",
-                      pwd="Rahelhaftey18$")
+                      uid="xxx",
+                      pwd="xxxxxx")
 cursor = conn.cursor()
 
 try:
